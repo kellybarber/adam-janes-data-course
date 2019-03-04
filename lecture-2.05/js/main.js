@@ -1,0 +1,33 @@
+
+const svg = d3.select("#chart-area")
+    .append('svg')
+    .attr('height', 400)
+    .attr('width', 500)
+
+const circle = svg.append('circle')
+    .attr('cx', 100)
+    .attr('cy', 200)
+    .attr('r', 40)
+    .attr('fill', 'blue')
+
+const rectangle = svg.append('rect')
+    .attr('x', 200)
+    .attr('y', 160)
+    .attr('height', 80)
+    .attr('width', 80)
+    .attr('fill', 'green')
+
+const line = svg.append('line')
+    .attr('x1', 20)
+    .attr('y1', 20)
+    .attr('x2', 100)
+    .attr('y2', 100)
+    .attr('stroke-width', 2)
+    .attr('stroke', 'red')
+
+const ellipse = svg.append('ellipse')
+    .attr('cx', 200)
+    .attr('cy', 40)
+    .attr('rx', 40)
+    .attr('ry', 30)
+    .attr('fill', 'yellow')
