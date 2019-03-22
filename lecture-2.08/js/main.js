@@ -23,12 +23,4 @@
     .attr('height', data => data.height)
     .attr('width', 20)
     .attr('fill', 'grey')
-
-
-
 })();
-
-
-// d3.json('data/buildings.json').then(data => {
-//   console.log(data)
-// })
